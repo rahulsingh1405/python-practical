@@ -1,0 +1,4 @@
+dct={'name':'rishit','sec':'f','rolln':40}
+for key,val in dct.items():
+    print(key,val)
+print(" ")
