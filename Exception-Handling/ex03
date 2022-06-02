@@ -1,0 +1,6 @@
+def increment(num):
+    try:
+        return int(num) + 1
+    except:
+        raise ValueError("This is wrong indent")
+print(increment(10))
