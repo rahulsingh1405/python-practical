@@ -1,0 +1,6 @@
+try:
+    print(5/0)
+except ArithmeticError as e:
+    print(e)
+else:
+    print('We are done')
