@@ -1,0 +1,14 @@
+while(True):
+    try:
+        print("Press q to quite")
+        a = input('Enter a input : ')
+        if a == 'q':
+            break
+        else:
+            a = int(a)
+            if a > 6:
+                print('Your entered number is greater than 6')
+            else:
+                print('Your entered number is less than 6')
+    except Exception as e:
+        print(e)
